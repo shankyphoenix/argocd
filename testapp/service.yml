@@ -4,7 +4,7 @@ metadata:
   name: service-my-app
   namespace: test-app
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: nginx
   ports:
